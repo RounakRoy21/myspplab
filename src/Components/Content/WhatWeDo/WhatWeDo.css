@@ -1,0 +1,53 @@
+.whatwedoDiv{
+    height: -webkit-fill-available;
+    background-color: rgb(83, 58, 156);
+}
+.bg-video{
+    opacity: .45;
+    overflow: hidden;
+    color: rgb(83, 58, 156);
+}
+.bg-video>.vidContent{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+}
+#whatwedoH1{
+    text-align: center !important;
+    position: absolute;
+    top: 8%;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+}
+#contentDivWWD1{
+    text-align: justify;
+    position: absolute;
+    top: 24%;
+    left: 8%;
+    width: 82%;
+    color: white;
+    height: 68%;
+    line-height: 1.6em;
+}
+.contentSpan{
+    font-size: 1.15em;
+    font-weight: bold;
+    margin-right: 0.8em;
+}
+.researchLi{
+    margin-top: 2em;
+}
+/* #contentDivWWD2{
+    text-align: center !important;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} */

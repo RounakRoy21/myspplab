@@ -1,0 +1,67 @@
+#contactUsDiv{
+    background-image: url(../../../Images/Light_purple_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
+    padding: 3rem 3rem 2rem;
+    overflow-y: auto;
+}
+.contactUsCard{
+    margin: 4rem 0rem 0rem;
+    padding: 2rem 1.5rem 2.5rem;;
+    /* border: 1px solid #7F63C8; */
+    box-shadow: 2rem 2rem 4rem rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    font-size: 0.85rem;
+    backdrop-filter: blur(4px);
+}
+.contactUsList{
+    list-style-type: none;
+}
+.leftLabel{
+    font-size:1.2rem;
+    font-weight: bold;
+    color: #572d93;
+    width: 15%;
+    display: inline-block;
+}
+.labelIcon{
+    color: #572d93;
+    width: 1.8rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    vertical-align: sub;
+}
+.labelIcon>a{
+    text-decoration: auto;
+    color: #572d93;
+}
+.labelIcon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.labelInfo{
+    font-size:1rem;
+    font-weight: bold;
+    color: #2b2047;
+    width: 70%;
+    display: inline-block;
+}
+.contactUsLi{
+    border-bottom: 1px solid #7F63C8;
+    margin: 1.5rem 0rem;;
+}
+#contactFooter{
+    padding: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: #2b2047;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 90%;
+}
+#contactFooter>a{
+    vertical-align: middle;
+    margin-left: 0.2em;
+}

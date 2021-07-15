@@ -1,0 +1,75 @@
+#membersBaseDiv{
+    background-color: #652fbf;
+    color: white;
+    display: grid;
+    padding: 1rem;
+    overflow: auto;
+}
+.memberInfoCard{
+    display: grid;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid #7F63C8;
+    grid-template-columns: min-content 1fr;
+    grid-column-gap: 3.8rem;
+    align-items: center;
+    box-shadow: 2rem 2rem 4rem rgb(0 0 0 / 25%);
+    font-size: 0.85rem;
+    border-radius: 5px;
+}
+.internInfoCard{
+    display: block;
+    margin: 1.5rem;
+    padding: 1.5rem 4rem 1.2rem;
+    border: 1px solid #7F63C8;
+    align-items: center;
+    box-shadow: 2rem 2rem 4rem rgb(0 0 0 / 25%);
+    border-radius: 5px;
+}
+.internInfoCard>ul>li{
+    line-height: 2em;
+    font-size: 1em;
+}
+.memImage>img{
+    width: 15vw;
+    height: 15vw;
+    display: block;
+}
+.content{
+    display: block;
+    /* grid-row-gap: 1rem; */
+}
+.content>.about{
+    display: grid;
+    grid-template-columns: minmax(20vw, 18rem) 1fr;
+    grid-row-gap: .5rem;
+    margin: 1rem;
+}
+.content>h2,.content>h4,.content>h5{
+    margin: 0rem 1rem 1.4rem !important;
+}
+.MembersHeader{
+    font-size: 1.6rem;
+    padding-left: 2rem;
+}
+.memBtn{
+    background-color: transparent;
+    color: currentcolor;
+    font-weight: 700;
+    padding: 1rem 1.2rem;
+    margin: 1rem;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+}
+.memBtn:hover{
+    transform: scale(1.1);
+    box-shadow:5px 5px 8px rgb(0 0 0 / 25%);
+}
+.memBtn>a{
+    margin-left: 6px;
+    text-decoration: auto;
+    color: white;
+    vertical-align: top;
+}

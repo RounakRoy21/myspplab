@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/myspplab/static/css/main.862c7e25.chunk.css",
+    "main.js": "/myspplab/static/js/main.648a0caf.chunk.js",
+    "main.js.map": "/myspplab/static/js/main.648a0caf.chunk.js.map",
+    "runtime-main.js": "/myspplab/static/js/runtime-main.dc3e3c7f.js",
+    "runtime-main.js.map": "/myspplab/static/js/runtime-main.dc3e3c7f.js.map",
+    "static/js/2.4d17b0d6.chunk.js": "/myspplab/static/js/2.4d17b0d6.chunk.js",
+    "static/js/2.4d17b0d6.chunk.js.map": "/myspplab/static/js/2.4d17b0d6.chunk.js.map",
+    "static/js/3.3af349f9.chunk.js": "/myspplab/static/js/3.3af349f9.chunk.js",
+    "static/js/3.3af349f9.chunk.js.map": "/myspplab/static/js/3.3af349f9.chunk.js.map",
+    "index.html": "/myspplab/index.html",
+    "static/css/main.862c7e25.chunk.css.map": "/myspplab/static/css/main.862c7e25.chunk.css.map",
+    "static/js/2.4d17b0d6.chunk.js.LICENSE.txt": "/myspplab/static/js/2.4d17b0d6.chunk.js.LICENSE.txt",
+    "static/media/logo.cf9cff4c.svg": "/myspplab/static/media/logo.cf9cff4c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc3e3c7f.js",
+    "static/js/2.4d17b0d6.chunk.js",
+    "static/css/main.862c7e25.chunk.css",
+    "static/js/main.648a0caf.chunk.js"
+  ]
+}

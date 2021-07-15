@@ -1,0 +1,10 @@
+#labtourDiv{
+    background-image: url(../../../Images/Light_purple_bg.jpg);
+    /* height: 100vh; */
+    height: -webkit-fill-available;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    overflow-y: auto;
+}

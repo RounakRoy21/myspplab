@@ -1,0 +1,10 @@
+#contentDiv{
+    width: -webkit-fill-available;
+    background-color: #f9f7ff;
+    margin-left: 19.6%;
+    position: relative;
+    height: -webkit-fill-available;
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+            /* padding: 2rem; */
+}

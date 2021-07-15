@@ -1,0 +1,61 @@
+.homeDiv{
+    height: -webkit-fill-available;
+}
+.bg-video{
+    /* top: 100 px;
+    left: 100px;
+    height: 100%;
+    width: 100%; */
+    opacity: .45;
+    overflow: hidden;
+    color: #777777;
+}
+.bg-video>.vidContent{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    color: #777777;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+}
+#homeH1{
+    text-align: center !important;
+    position: absolute;
+    top: 8%;
+    color: #2b2047;
+    font-size: 1.3em;
+    width: 100%;
+}
+#contentDiv1{
+    text-align: justify;
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    width: 80%;
+    color: #2b2047;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 2em;
+}
+#marqueeDiv{
+    position: absolute;
+    bottom: 6%;
+    width: 100%;
+    color: #2b2047;
+    line-height: 1.4em;
+}
+.marqueeCard{
+    height: 10em;
+    width:20em;
+    margin-right: 2.2em;
+    background-color: whitesmoke;
+    padding: 1em;
+    border-radius: 10px;
+    opacity: 0.6;
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: #2b2047;
+}

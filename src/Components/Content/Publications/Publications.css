@@ -1,0 +1,75 @@
+#publicationsDiv{
+    background-image: url(../../../Images/Light_purple_bw.jpg);
+    /* height: 100vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -webkit-fill-available;
+    padding: 2rem 2rem 2rem;
+    overflow-y: auto;
+}
+.pubGroup{
+    padding: 1rem;
+}
+.pubYear{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0rem 0rem 1rem;
+    border-bottom: 1px solid #2b2047;
+    padding-bottom: 1rem;
+}
+.pubContent{
+    padding: 0rem
+}
+.publicationCard{
+    padding: 1em;
+    width: 36%;
+    border-radius: 8px;
+    box-shadow: 2em 2em 4em rgb(0 0 0 / 25%);
+    display: inline-block;
+    margin: 1% 0% 1% 6%;
+    backdrop-filter: blur(10px);
+    transition: all 0.2s ease 0s;
+}
+/* .publicationCard:hover{
+    transform: scale(1.01);
+} */
+.pubInfoDate{
+    margin: 1em 0em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    color: #2b2047;
+}
+.pubInfoTitle{
+    font-size: 1.2em;
+    color: #2b2047;
+}
+.pubInfoAuthor{
+    margin: 2em 0em 1.8em;
+    color: #2b2047;
+    font-size: 1em;
+    font-weight: bold;
+}
+.pubBtn{
+    background-color: transparent;
+    color: #2b2047;
+    font-weight: 700;
+    padding: 1em 1em;
+    margin: 1em;
+    border: 2px solid #2b2047;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 28%;
+}
+.pubBtn:hover{
+    transform: scale(1.02);
+}
+.pubBtn>a{
+    text-decoration: none;
+    color: #2b2047;
+}
+.pubBtn>a>span{
+    margin-left: 0.5em;
+}
